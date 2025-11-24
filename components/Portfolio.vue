@@ -2,7 +2,7 @@
   <section id="portfolio" class="py-20">
     <div class="container mx-auto px-6">
       <h2 class="text-4xl font-bold text-center mb-8 gradient-text pb-1">
-        Portfolio Saya
+        Portofolio Saya
       </h2>
 
       <!-- Filter Chips -->
