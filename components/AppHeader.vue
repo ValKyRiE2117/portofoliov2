@@ -68,12 +68,12 @@
 const isMenuOpen = ref(false);
 
 const navItems = [
-  { href: "#about", label: "About" },
+  { href: "#about", label: "Tentang" },
   { href: "#skills", label: "Skills" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#organization", label: "Activities" },
-  { href: "#certificates", label: "Certificates" },
-  { href: "#contact", label: "Contact" },
+  { href: "#portfolio", label: "Portofolio" },
+  { href: "#organization", label: "Aktivitas" },
+  { href: "#certificates", label: "Sertifikat" },
+  { href: "#contact", label: "Kontak" },
 ];
 
 const toggleMenu = () => {
