@@ -99,7 +99,7 @@ const contacts = [
     icon: "fab fa-linkedin",
     title: "LinkedIn",
     description: "Terhubung dengan saya",
-    link: "https://www.linkedin.com/in/aritza-kusuma-3b0b92225/",
+    link: "https://www.linkedin.com/in/aritza-ganendra-kusuma-3b0b92225",
     external: true,
     isEmail: false,
   },
