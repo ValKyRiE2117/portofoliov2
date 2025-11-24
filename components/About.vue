@@ -55,6 +55,10 @@ const personalInfo = [
 
 const experiences = [
   {
+    title: "Junior Developer - Intern",
+    description: "PT. Digital Kreasi Muslim - Sekarang",
+  },
+  {
     title: "Freelance Developer & Designer",
     description: "3 proyek klien website diselesaikan",
   },
