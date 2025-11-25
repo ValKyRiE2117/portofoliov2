@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AppHeader />
     <Hero />
     <About />
     <Skills />
@@ -8,5 +9,6 @@
     <Certificates />
     <Contact />
     <AppFooter />
+    <ThemeSelector />
   </div>
 </template>

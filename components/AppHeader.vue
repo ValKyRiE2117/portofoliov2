@@ -2,7 +2,7 @@
   <nav class="fixed top-0 left-0 right-0 z-50 glass-card">
     <div class="container mx-auto px-6 py-4">
       <div class="flex items-center justify-between">
-        <div class="text-xl font-bold text-cyan-400 lg:hidden"></div>
+        <div class="text-xl font-bold text-primary lg:hidden"></div>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8 mx-auto">
@@ -10,7 +10,7 @@
             v-for="item in navItems"
             :key="item.href"
             :href="item.href"
-            class="hover:text-cyan-400 transition text-sm"
+            class="hover:text-primary transition text-sm"
           >
             {{ item.label }}
           </a>
@@ -53,7 +53,7 @@
               :key="item.href"
               :href="item.href"
               @click="closeMenu"
-              class="hover:text-cyan-400 transition text-sm"
+              class="hover:text-primary transition text-sm"
             >
               {{ item.label }}
             </a>

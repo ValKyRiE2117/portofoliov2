@@ -37,9 +37,9 @@
             <div class="flex">
               <div class="flex-shrink-0 mr-4">
                 <div
-                  class="w-12 h-12 bg-cyan-400/10 rounded-lg flex items-center justify-center"
+                  class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center"
                 >
-                  <i :class="`fa-solid ${activity.icon} text-cyan-400`"></i>
+                  <i :class="`fa-solid ${activity.icon} text-primary`"></i>
                 </div>
               </div>
               <div class="flex-grow">
@@ -57,19 +57,19 @@
 const activities = [
   {
     icon: "fa-user-group",
-    description: `Anggota Panitia Sie Acara <span class="text-cyan-400 font-semibold">Dinus Inside 2023</span> yang merancang kegiatan Orientasi Studi dan Pengenalan Kampus Udinus`,
+    description: `Anggota Panitia Sie Acara <span class="text-primary font-semibold">Dinus Inside 2023</span> yang merancang kegiatan Orientasi Studi dan Pengenalan Kampus Udinus`,
   },
   {
     icon: "fa-user-tie",
-    description: `Ketua Pelaksana <span class="text-cyan-400 font-semibold">Workshop Laravel Programming 2023</span> yang sukses mendatangkan <span class="text-cyan-400 font-bold">120+ peserta</span> dan 3 pemateri profesional`,
+    description: `Ketua Pelaksana <span class="text-primary font-semibold">Workshop Laravel Programming 2023</span> yang sukses mendatangkan <span class="text-primary font-bold">120+ peserta</span> dan 3 pemateri profesional`,
   },
   {
     icon: "fa-chalkboard-user",
-    description: `Pemateri sekaligus Koordinator Sie Acara <span class="text-cyan-400 font-semibold">FIK FAIR 2024 Goes to Campus</span> yang mengkoordinasi acara dan memberikan materi Figma basic kepada <span class="text-cyan-400 font-bold">80 Peserta</span> SMA & SMK`,
+    description: `Pemateri sekaligus Koordinator Sie Acara <span class="text-primary font-semibold">FIK FAIR 2024 Goes to Campus</span> yang mengkoordinasi acara dan memberikan materi Figma basic kepada <span class="text-primary font-bold">80 Peserta</span> SMA & SMK`,
   },
   {
     icon: "fa-users",
-    description: `Koordinator Sie Acara <span class="text-cyan-400 font-semibold">Mobile UI/UX Competition 2024</span> yang sukses menghadirkan <span class="text-cyan-400 font-bold">50 Tim</span> dari Universitas dan Sekolah di luar Kota Semarang`,
+    description: `Koordinator Sie Acara <span class="text-primary font-semibold">Mobile UI/UX Competition 2024</span> yang sukses menghadirkan <span class="text-primary font-bold">50 Tim</span> dari Universitas dan Sekolah di luar Kota Semarang`,
   },
 ];
 </script>

@@ -11,7 +11,7 @@
             :key="info.label"
             class="flex items-center mb-4"
           >
-            <i :class="`fas ${info.icon} text-cyan-400 mr-3`"></i>
+            <i :class="`fas ${info.icon} text-primary mr-3`"></i>
             <div>
               <p class="text-gray-400 text-sm">{{ info.label }}</p>
               <p class="font-semibold">{{ info.value }}</p>
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="glass-card rounded-xl p-6">
-          <h3 class="text-xl font-bold mb-4 text-cyan-400">
+          <h3 class="text-xl font-bold mb-4 text-primary">
             Pengalaman Professional
           </h3>
           <div class="space-y-3">

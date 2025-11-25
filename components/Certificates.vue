@@ -10,7 +10,7 @@
           :key="cert.title"
           class="glass-card rounded-xl p-6 hover:scale-105 transition-transform"
         >
-          <div class="text-cyan-400 mb-3">
+          <div class="text-primary mb-3">
             <i :class="`fas ${cert.icon} text-3xl`"></i>
           </div>
           <span class="text-gray-400 text-xs">{{ cert.year }}</span>

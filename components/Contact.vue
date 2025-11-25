@@ -19,7 +19,7 @@
           @click="contact.isEmail ? copyEmail(contact.description) : null"
           class="glass-card rounded-xl p-6 text-center hover:scale-105 transition-transform cursor-pointer"
         >
-          <i :class="`${contact.icon} text-3xl text-cyan-400 mb-3`"></i>
+          <i :class="`${contact.icon} text-3xl text-primary mb-3`"></i>
           <h3 class="font-semibold mb-1">{{ contact.title }}</h3>
           <p class="text-gray-400 text-sm">{{ contact.description }}</p>
         </component>
@@ -63,7 +63,7 @@
         </div>
         <div class="h-1 bg-gray-700 relative overflow-hidden">
           <div
-            class="h-full bg-cyan-400 absolute left-0 top-0"
+            class="h-full bg-primary/80 absolute left-0 top-0"
             :style="{ width: progress + '%' }"
           ></div>
         </div>

@@ -14,7 +14,7 @@
           <img
             src="/assets/my_pp_2.jpg"
             alt="Profile"
-            class="w-48 rounded-xl mx-auto mb-6 border-2 border-cyan-400"
+            class="w-48 rounded-xl mx-auto mb-6 border-2 border-primary"
           />
         </div>
         <h1 class="text-2xl md:text-4xl font-extrabold mb-4">
@@ -32,19 +32,19 @@
           <a
             href="/assets/CV-Main.pdf"
             target="_blank"
-            class="px-6 py-3 bg-cyan-400 text-gray-900 rounded-lg font-semibold hover:bg-cyan-300 transition text-sm md:text-base"
+            class="px-6 py-3 bg-primary text-gray-900 rounded-lg font-semibold hover:bg-primary/80 transition text-sm md:text-base"
           >
             <i class="fas fa-download mr-2"></i>Download CV
           </a>
           <a
             href="#contact"
-            class="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400/10 transition text-sm md:text-base"
+            class="px-6 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition text-sm md:text-base"
           >
             Hubungi Saya
           </a>
         </div>
         <div class="mt-12 text-xs text-gray-400">
-          Put me to <span class="text-cyan-400 font-extrabold">work</span> ✨
+          Put me to <span class="text-primary font-extrabold">work</span> ✨
         </div>
       </div>
     </div>

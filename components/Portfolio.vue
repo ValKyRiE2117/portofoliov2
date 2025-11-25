@@ -14,7 +14,7 @@
           class="px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300"
           :class="
             selectedCategory === category
-              ? 'bg-cyan-500 text-white'
+              ? 'bg-primary text-white'
               : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
           "
         >
@@ -36,7 +36,9 @@
             :class="project.aspectVideo ? 'aspect-video' : ''"
           />
           <div class="p-4 md:p-6">
-            <span class="text-cyan-400 text-xs font-semibold">
+            <span
+              class="text-primary text-xs font-semibold bg-primary/10 px-2 py-1 rounded-full"
+            >
               {{ project.type }}
             </span>
             <h3 class="text-xl font-bold mt-2 mb-3">{{ project.title }}</h3>
@@ -53,7 +55,7 @@
             <a
               :href="project.link"
               target="_blank"
-              class="text-cyan-400 text-sm hover:underline"
+              class="text-primary text-sm hover:underline"
             >
               <i class="fas fa-arrow-right mr-2"></i>View Project
             </a>
@@ -78,7 +80,7 @@
           class="px-4 py-2 rounded-lg transition-all duration-300"
           :class="
             currentPage === page
-              ? 'bg-cyan-500 text-white'
+              ? 'bg-primary text-white'
               : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
           "
         >
