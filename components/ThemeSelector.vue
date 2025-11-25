@@ -3,7 +3,7 @@
     <!-- Theme Button -->
     <button
       @click="togglePanel"
-      class="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-primary-light shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-white hover:scale-110"
+      class="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-primary-light shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-white hover:scale-110 hover:cursor-pointer"
     >
       <i class="fa-solid fa-swatchbook text-xl p-3 bg-gray-800 rounded-lg"></i>
     </button>

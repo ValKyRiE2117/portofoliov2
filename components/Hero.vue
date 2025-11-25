@@ -32,13 +32,13 @@
           <a
             href="/assets/CV-Main.pdf"
             target="_blank"
-            class="px-6 py-3 bg-primary text-gray-900 rounded-lg font-semibold hover:bg-primary/80 transition text-sm md:text-base"
+            class="px-4 py-2 md:px-6 md:py-3 bg-primary text-gray-900 rounded-lg font-semibold hover:bg-primary/80 transition text-sm md:text-base"
           >
             <i class="fas fa-download mr-2"></i>Download CV
           </a>
           <a
             href="#contact"
-            class="px-6 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition text-sm md:text-base"
+            class="px-4 py-2 md:px-6 md:py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition text-sm md:text-base"
           >
             Hubungi Saya
           </a>
