@@ -43,7 +43,10 @@
                 </div>
               </div>
               <div class="flex-grow">
-                <p class="text-gray-200" v-html="activity.description"></p>
+                <p
+                  class="text-gray-200 text-sm md:text-base"
+                  v-html="activity.description"
+                ></p>
               </div>
             </div>
           </div>

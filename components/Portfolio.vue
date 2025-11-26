@@ -11,7 +11,7 @@
           v-for="category in categories"
           :key="category"
           @click="selectedCategory = category"
-          class="px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300"
+          class="px-4 py-2 md:px-6 md:py-2 rounded-full text-sm font-semibold transition-all duration-300"
           :class="
             selectedCategory === category
               ? 'bg-primary text-white'
